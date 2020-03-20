@@ -1,3 +1,14 @@
-<h2 id="title">Welcome to Ember</h2>
+<h2 id="title">This should be broken...</h2>
 
-{{outlet}}
+<p>
+  To reproduce the error, set focus on the input (by clicking or tabbing into it) and then remove it (by clicking or
+  tabbing outside of it), then check your console. You will see the error:
+</p>
+
+<blockquote>
+  <p>
+    Error: Property set failed: object in path "something.really" could not be found.
+  </p>
+</blockquote>
+
+<Input @value={{this.weirdBackingAlias}} />
