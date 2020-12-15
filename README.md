@@ -1,7 +1,6 @@
-# ab-input-bug
+<h1 align=center>ab-input-bug – :red_square: Archived :red_square:</h1>
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+<p align=center><em>This repo exists to demo a bug in Ember `<Input>` component behavior in Ember 3.16+, which has since been solved. It exists for reference purposes only.</em></p>
 
 ## Prerequisites
 
